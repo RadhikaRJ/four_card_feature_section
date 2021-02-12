@@ -4,7 +4,8 @@
 }
 
 .attribution a {
-    color: orange;
+    color: rgb(134, 11, 79);
+    text-decoration: none;
 }
 
 body {
@@ -95,3 +96,43 @@ body {
     border-top: 4px solid hsl(212, 86%, 64%)
 }
 
+
+@media (min-width:675px){
+    .main-container{
+        margin:0 auto;
+        width:1440px;
+        /* border: 2px solid green; */
+        align-content: center;
+    }
+
+    .heading1,
+    .heading2,
+    .description{
+        text-align: center;
+    }
+
+    .description{
+        margin-left:27em;
+        margin-right:27em;
+        text-align: center;
+        /* border:2px solid brown; */
+    }
+    .sub-sections{
+        width:300px;
+        margin:1em;
+    }
+
+    .subsection-container{
+        display:flex;       
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid brown; */
+        position: relative;        
+      
+    }
+
+    .sub-section3{
+        margin-top:2em;
+    }
+    
+}
