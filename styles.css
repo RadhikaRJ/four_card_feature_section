@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     width: 380px;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 2em;
 
 }
@@ -52,13 +52,14 @@ body {
 }
 
 .sub-sections {
-    border: 2px solid green;
+    
     margin-top: 2em;
     margin-bottom: 2em;
     padding-left: 1.5em;
     padding-right: 1.5em;
     border-radius: 0.5em;
-    height:220px;
+    height:230px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sub-sections >p>img{
