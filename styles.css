@@ -1,3 +1,9 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color:orange; }
 
+.main-container{
+    margin:0 auto;
+    width:375px;
+    font-family: 'Poppins', sans-serif;
+}
+
