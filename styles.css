@@ -1,54 +1,88 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color:orange; }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
 
-body{
+.attribution a {
+    color: orange;
+}
+
+body {
     font-size: 15px;
 }
-.main-container{
-    margin:0 auto;
-    width:380px;
+
+.main-container {
+    margin: 0 auto;
+    width: 380px;
     font-family: 'Poppins', sans-serif;
     border: 2px solid red;
-    padding:2em;
-    
+    padding: 2em;
+
 }
 
-.heading1{
+.heading1 {
     font-weight: 100;
-    color:hsl(234, 12%, 34%);
-    margin-bottom:0;
-    padding-bottom:0;
-   
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0;
+    padding-bottom: 0;
+
 }
 
-.heading2{
+.heading2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.description,
+.sub-section-description {
+    color: hsl(229, 6%, 66%);
+    letter-spacing: 1px;
+    ;
+}
+
+
+.description {
+    margin-bottom: 4.5em;
+    text-align: justify;
+
+}
+
+.subsection-container {
+    border: 2px solid blue;
+}
+
+.sub-sections {
+    /* border: 2px solid green; */
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 0.5em;
+}
+
+.sub-section-heading{
+    margin-bottom: 0;;
+}
+.sub-section-description {
+    /* border: 2px solid magenta; */
     margin-top:0;
     padding-top:0;
 }
 
-.description,
-.sub-section-description{
-color:hsl(229, 6%, 66%);
-letter-spacing: 1px;;
+
+.sub-section1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
 }
 
-
-.description{
-    margin-bottom:4.5em;
-   text-align: justify;
-  
-}
-.subsection-container{
-    border: 2px solid blue;
+.sub-section2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
 }
 
-.sub-sections{
-    border: 2px solid green;
-    margin-top:2em;
-    margin-bottom: 2em;
-    padding-left:1.5em;
-    padding-right:1.5em;
+.sub-section3 {
+    border-top: 4px solid hsl(34, 97%, 64%)
 }
-.sub-section-description{
-    border: 2px solid magenta;
+
+.sub-section4 {
+    border-top: 4px solid hsl(212, 86%, 64%)
 }
+
